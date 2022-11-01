@@ -1,0 +1,13 @@
+body {
+    background: rgb(54, 47, 47);
+    }
+h1{
+    font-style: bold;
+    font-size: 20px;
+    color: white;
+}
+
+h2{
+    font-style: italic;
+    color: white;
+}
