@@ -1,6 +1,17 @@
 body {
     background: rgb(54, 47, 47);
-    }
+    
+}
+
+p {
+    font-size: 20px;
+    color: #AAAAAA;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right:100px ;    
+}
+
 h1{
     font-style: bold;
     font-size: 40px;
@@ -16,19 +27,18 @@ h2{
     text-align: center;
     background-color: rgb(116, 116, 180);
 }
-p {
-    font-size: 20px;
-    color: #AAAAAA;
+
+h3{
+    color: white;
+    font-style: italic;
     text-align: center;
-    margin-top: 10px;
-    margin-left: 100px;
-    margin-right:100px ;    
 }
-table{
-    margin: 0 50%;
+
+ul{
+    color: white;
+    text-align: left;
+    margin-left: 45%;
+    margin-right: 45%;
+    
 }
-img{
-    width: 20%;
-    display: block;
-    margin: 20px;
-}
+
