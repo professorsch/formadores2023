@@ -1,4 +1,11 @@
-header{
-    background-color: #3b4eb1;
-    color: white;
+:root {
+    --cor-de-fundo: #EBECEE
+
+}
+@import url(styles/header.css);
+
+.cabecalho__menu-hambrguer{
+    width: 24px;
+    height: 24px;
+    background-color: url("../img/Menu.svg");
 }
