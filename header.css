@@ -7,4 +7,13 @@
 
 .cabecalho{
     background-color: var(--branco);
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_imagem{
+    padding: 1em;
 }
