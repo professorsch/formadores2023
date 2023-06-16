@@ -4,5 +4,7 @@
 }
 @import url(styles/header.css);
 
-
+body{
+    background-color: var(--cor-de-fundo);
+}
 
