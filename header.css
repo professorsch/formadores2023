@@ -1,0 +1,10 @@
+.cabecalho__menu-hambrguer{
+    width: 24px;
+    height: 24px;
+    background-color: url("../img/Menu.svg");
+    display: inline-block;    
+}
+
+.cabecalho{
+    background-color: var(--branco);
+}

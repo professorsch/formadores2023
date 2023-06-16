@@ -1,11 +1,7 @@
 :root {
     --cor-de-fundo: #EBECEE
+    --branco: #FFFFFF
 
 }
 @import url(styles/header.css);
 
-.cabecalho__menu-hambrguer{
-    width: 24px;
-    height: 24px;
-    background-color: url("../img/Menu.svg");
-}
