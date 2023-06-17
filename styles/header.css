@@ -2,6 +2,7 @@
     width: 24px;
     height: 24px;
     background-color: url("../img/Menu.svg");
+    background-position: center;
     display: inline-block; 
     background-repeat: no-repeat;  
 }
@@ -9,6 +10,8 @@
 .cabecalho{
     background-color: var(--branco);
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 .container{
