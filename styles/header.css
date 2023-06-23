@@ -1,7 +1,8 @@
-.cabecalho__menu-hambrguer{
+.cabecalho__menu-hamburger{
     width: 24px;
     height: 24px;
-    background-color: url("../img/Menu.svg");
+    padding: 1em;
+    background-image: url(../img/Menu.svg);
     background-position: center;
     display: inline-block; 
     background-repeat: no-repeat;  
@@ -17,8 +18,36 @@
 
 .container{
     display: flex;
-    align-items: center;
+    align-items: center;       
 }
 .container__imagem{
     padding: 1em;
 }
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+.lista-menu__titulo{
+    color: var(--amarelo);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lista-menu__link{
+    color: var(--roxo);
+    text-transform: uppercase;
+    
+}
+.container__botao{
+    display: none;
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+
+
