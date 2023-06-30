@@ -35,7 +35,7 @@
 }
 .lista-menu__titulo{
     color: var(--amarelo);
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
 }
 .lista-menu__link{
